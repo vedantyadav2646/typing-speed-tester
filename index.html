@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>speed tester</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Check your typing speed here!</h1>
+        <div>
+            <span id="timer">
+              <span id="time">60</span>Seconds</span>
+             
+              <button class="button" onclick="start()">START</button>
+          </div>
+        <div class="container">
+            <div class="quote-display" id="quoteDisplay">Type here!</div>
+            <textarea name="comment" id="quoteInput" oninput="countWords()" class="quote-input" autofocus rows="6" cols="70"></textarea>
+            <br>
+            <p class="wordCount"> Word Count: <span id="show">0</span></p>
+        </div>
+       <!--<button id="restart" class="restart_btn" onclick="resetValues()">Restart</button>-->
+       <p class="vedant">© 2021 Vedant.</p>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    </body>
+
+</html> 

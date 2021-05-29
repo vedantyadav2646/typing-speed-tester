@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    background-color: black ;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: cornsilk;
+    font-size: 70px;
+    margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h3{
+    font-size: 40px;
+    margin: 1%;
+}
+.word-count{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.quote-input{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    height: 8rem;
+    width: 70%;
+    margin: auto;
+    resize: none;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+
+.container{
+    background-color: floralwhite;
+    font-size: 50px;
+    margin-top: 1%;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 0 10% 0 10%;
+}
+
+.quote-display{
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.restart_btn {
+    text-align: left;
+    background-color: whitesmoke;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin:1%;
+    border-radius: .5rem;
+    box-shadow: white 5px 8px 5px;
+  }
+
+  #time{
+    position: relative;
+    color: floralwhite;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 2% ;
+    margin: 0 10% 0 10%;
+  }
+
+  #timer{
+      color: floralwhite;
+      font-size: 5rem;
+  }
+.button{
+font-size:15px;
+background-color: floralwhite;
+color: black;
+border-radius: .5rem;
+box-shadow: white 5px 5px 5px;
+}
+
+.vedant{
+    color: floralwhite;
+}
